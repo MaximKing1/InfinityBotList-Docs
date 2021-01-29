@@ -2,7 +2,9 @@
 
 ### Markdown
 
-\[!\[Infinity Bot List Widget\]\(https://infinitybotlist.com/bots/\[botID\]/widget?size=small, medium, large\)\]\(https://infinitybotlist.com/bots/\[botID\]\)
+```text
+[![Infinity Bot List Widget](https://infinitybotlist.com/bots/[botID]/widget?size=small, medium, large)](https://infinitybotlist.com/bots/[botID])
+```
 
 ### HTML
 
