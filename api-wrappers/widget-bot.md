@@ -6,5 +6,7 @@
 
 ### HTML
 
-&lt;a href="https://infinitybotlist.com/bots/\[botID\]" title="widget"&gt; &lt;img src="https://infinitybotlist.com/bots/\[botID\]/widget?size=small, medium, large"&gt;&lt;/img&gt; &lt;/a&gt;
+```text
+<a href="https://infinitybotlist.com/bots/[botID]" title="widget"> <img src="https://infinitybotlist.com/bots/[botID]/widget?size=small, medium, large"></img> </a>
+```
 
