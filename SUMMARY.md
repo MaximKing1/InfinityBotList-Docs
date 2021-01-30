@@ -7,6 +7,7 @@
 
 * [Posting Bot Stats](getting-started/untitled-1.md)
 * [Fetching User Stats](getting-started/untitled.md)
+* [Fetching Bot Stats](getting-started/fetching-bot-stats.md)
 
 ## API Wrappers
 
