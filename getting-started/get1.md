@@ -44,7 +44,17 @@ Get User Stats From The API.
 {% endapi-method-response-example-description %}
 
 ```
+res.json
+```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Couldn't find user
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
