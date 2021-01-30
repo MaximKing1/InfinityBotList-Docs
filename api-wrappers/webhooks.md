@@ -55,6 +55,16 @@ Go to your bots page and click the Manage Bot button, then scroll down until you
 From there you can add your Vote URL and Vote secret we would suggest using a Express server you can read more about here also we included an example below:
 
 ```javascript
+  // Imports
+const express = require("express")
+const bodyParser = require("body-parser")
+
+const app = express(); // Initialize express
+const port = 3001; // Define a port for the webserver to run on.
+
+app.use(bodyParser.json())
+
+app.post("/vote", (req, res) => {
   // Respond to invalid requests
   if (req.header('Authorization') != "WEB_AUTH") return res.status(403).send(JSON.stringify({error: true, message: "You don't have access to use this endpoint"}));
 
@@ -63,6 +73,9 @@ From there you can add your Vote URL and Vote secret we would suggest using a Ex
 
  // Respond to ibl api
   res.status(200).send(JSON.stringify({error: false, message: "Received the request!"}));
+})
+
+app.listen(port, () => console.log(`Listening on port: ${port}`)) //Start the server
 ```
 
 Now you can receive requests from the IBL API and make them run whatever code!
