@@ -25,3 +25,35 @@ Success: \[200\] "BOT STATS" \(JSON\)
 
 Not Found: \[404\] "Couldn't find bot!"
 
+{% api-method method="get" host="https://infinitybotlist.com" path="/api/bots/:botID/info" %}
+{% api-method-summary %}
+Fetching Bot Stats
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Fetch Bot Stats
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Content-Type" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+

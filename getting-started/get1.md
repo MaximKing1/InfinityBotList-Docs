@@ -36,6 +36,12 @@ Get User Stats From The API.
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Content-Type" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
