@@ -4,7 +4,7 @@ To fetch bot stats from the **InfinityBotList API** you first need to specify yo
 
 #### Domain
 
-`/api/bots/:botID`  
+`/api/bots/:botID/info`  
 Where is says `:botID` please replace with the Bots ID
 
 #### Domain Parameters
