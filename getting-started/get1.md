@@ -25,3 +25,35 @@ Success: \[200\] "USER STATS" \(JSON\)
 
 Not Found: \[404\] "Couldn't find user!"
 
+{% api-method method="get" host="" path="/api/users/:userID" %}
+{% api-method-summary %}
+Getting User Stats
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Get User Sats From The API.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+

@@ -50,11 +50,11 @@ Posting The Stats To The API.
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="Authorization " type="string" required=true %}
+{% api-method-headers %}
+{% api-method-parameter name="authorization" type="string" required=true %}
 YOUR\_TOKEN
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
