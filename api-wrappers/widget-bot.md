@@ -12,7 +12,7 @@
 <a href="https://infinitybotlist.com/bots/[botID]" title="widget"> <img src="https://infinitybotlist.com/bots/[botID]/widget?size=small, medium, large"></img> </a>
 ```
 
-### Getting Your Widget:
+### Getting Your Widget
 
 To get it go to your bot page, and click widgets then you have 3 options:
 
