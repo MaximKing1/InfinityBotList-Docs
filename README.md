@@ -8,5 +8,5 @@ If you need help getting started with our developer API you can always ask the t
 
 ## Contributing
 
-If you would like to contribute to the docs please open a Pull Reqest and in detail explain everything you have added / removed and why. 
+If you would like to contribute to the docs please open a Pull Request on the [Github page](https://github.com/MaximKing1/InfinityBotList-Docs) and in detail explain everything you have added / removed and why.
 
