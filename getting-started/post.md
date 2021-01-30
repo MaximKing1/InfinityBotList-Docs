@@ -68,6 +68,16 @@ SUCCESS: res.json
 ```
 {% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Not Found!
+```
+{% endapi-method-response-example %}
+
 {% api-method-response-example httpCode=429 %}
 {% api-method-response-example-description %}
 
