@@ -101,8 +101,8 @@ v1 RESTful API
 
 | STATUS | CODE | DESCRIPTION |
 | :--- | :--- | :--- |
-| Success | 200 | GET Request Successful |
-| Not Found | 404 | Couldn’t find bot |
+| Success | `200` | GET Request Successful |
+| Not Found | `404` | Couldn’t find bot |
 
 **Constructor**
 
