@@ -5,8 +5,8 @@
 
 ## Infinity API <a id="getting-started"></a>
 
-* [Posting Bot Stats](getting-started/untitled-1.md)
-* [Fetching User Stats](getting-started/untitled.md)
+* [Posting Bot Stats](getting-started/post.md)
+* [Fetching User Stats](getting-started/get1.md)
 * [Fetching Bot Stats](getting-started/fetching-bot-stats.md)
 
 ## API Wrappers
