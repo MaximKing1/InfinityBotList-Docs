@@ -50,7 +50,17 @@ Fetch Bot Stats
 {% endapi-method-response-example-description %}
 
 ```
+BOT STATS" (JSON)
+```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Couldn't find bot
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
