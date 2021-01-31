@@ -64,7 +64,10 @@ You can POST Server and Shard Count stats once every 5 minutes
 
 **Rate Limit Structure**
 
-| ROUTE | REQUEST | REQUESTS ALLOWED PER 5 MINUTES |
+| ROUTE | TYPE | OVERVIEW |
 | :--- | :--- | :--- |
-| /api/bots/:botid | POST | 3 |
+| timestamp | Integar | Time of vote time |
+| userID | Snowflake | DiscordID of the voted user |
+| botID | Snowflake | DiscordID of the bot |
+| type | String | Type of request |
 
