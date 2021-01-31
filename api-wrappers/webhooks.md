@@ -80,3 +80,11 @@ app.listen(port, () => console.log(`Listening on port: ${port}`)) //Start the se
 
 Now you can receive requests from the IBL API and make them run whatever code!
 
+#### Body Response:
+
+| ROUTE | TYPE | OVERVIEW |
+| :--- | :--- | :--- |
+| timestamp | Integar | Time of vote time |
+| userID | Snowflake | DiscordID of the voted user |
+| botID | Snowflake | DiscordID of the bot |
+| type | String | Type of request |
