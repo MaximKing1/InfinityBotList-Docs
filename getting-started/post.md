@@ -39,7 +39,7 @@ Error: \[400\] "MESSAGE"
 
 ### Example:
 
-{% api-method method="post" host="https://infinitybotlist.com" path="/api/bots/:id" %}
+{% api-method method="post" host="https://api.infinitybotlist.com" path="/bot/:id" %}
 {% api-method-summary %}
 Posting Stats
 {% endapi-method-summary %}
