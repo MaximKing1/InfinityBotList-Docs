@@ -4,7 +4,7 @@ To fetch bot stats from the **InfinityBotList API** you first need to specify yo
 
 #### Domain
 
-`/api/bots/:botID/info`  
+`api.infinitybotlist.com/bot/:id/info`  
 Where is says `:botID` please replace with the Bots ID
 
 #### Domain Parameters
@@ -25,7 +25,7 @@ Success: \[200\] "BOT STATS" \(JSON\)
 
 Not Found: \[404\] "Couldn't find bot!"
 
-{% api-method method="get" host="https://infinitybotlist.com" path="/api/bots/:botID/info" %}
+{% api-method method="get" host="https://api.infinitybotlist.com" path="/bot/:botID/info" %}
 {% api-method-summary %}
 Fetching Bot Stats
 {% endapi-method-summary %}
