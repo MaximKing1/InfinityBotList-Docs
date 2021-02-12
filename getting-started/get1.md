@@ -4,12 +4,12 @@ To fetch user stats from the **InfinityBotList API** you first need to specify t
 
 #### Domain
 
-`/api/users/:userID`  
+`api.infinitybotlist.com/user/:userID`  
 Where is says `:userID` please replace with the User ID of the person your trying to lookup. \(Example: `:12345678910`\)
 
 #### Domain Parameters
 
-":id" means userID
+":userID" means the user ID
 
 #### Headers
 
@@ -25,7 +25,7 @@ Success: \[200\] "USER STATS" \(JSON\)
 
 Not Found: \[404\] "Couldn't find user!"
 
-{% api-method method="get" host="https://infinitybotlist.com" path="/api/users/:userID" %}
+{% api-method method="get" host="https://api.infinitybotlist.com" path="/user/:userID" %}
 {% api-method-summary %}
 Getting User Stats
 {% endapi-method-summary %}
