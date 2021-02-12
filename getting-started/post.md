@@ -4,7 +4,7 @@ To post your bot stats to the **InfinityBotList API** you first need to find out
 
 #### Domain
 
-`/api/bots/:id`  
+`api.infinitybotlist.com/bot/:id`  
 Where is says `:id` please replace with your bot's ID / Client ID. \(Example: `:12345678910`\)
 
 #### Domain Parameters
