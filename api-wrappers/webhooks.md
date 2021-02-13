@@ -1,5 +1,34 @@
 # Webhooks
 
+## [BLWebhooks:](https://www.npmjs.com/package/blwebhooks)
+
+### Step 1:
+
+```javascript
+npm i blwebhooks
+```
+
+### Step 2:
+
+Now that the BLWebhooks is installed we need to add this to our main code.
+
+```javascript
+const discord = require('discord.js');
+const client = discord.Client();
+
+const blwebhooks = require("blwebhooks");
+
+// This run on port 80
+const bl = new blwebhooks.Client(client, 80);
+
+const InfinityBotList = bl.IBLVoteHook("END URL", "AUTH", true);
+
+// This code will run after a new vote was received from InfinityBotList
+BLWEvent.on('IBL-voted', function async (userID, botID, type, timeStamp) {
+  console.log(userID)
+})
+```
+
 ## Using The Wrapper:
 
 ### Step 1:
