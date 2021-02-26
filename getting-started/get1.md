@@ -25,7 +25,7 @@ Success: \[200\] "USER STATS" \(JSON\)
 
 Not Found: \[404\] "Couldn't find user!"
 
-{% api-method method="get" host="https://api.infinitybotlist.com" path="/user/:userID" %}
+{% api-method method="get" host="https://api.infinitybots.xyz" path="/user/:userID" %}
 {% api-method-summary %}
 Getting User Stats
 {% endapi-method-summary %}
