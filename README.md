@@ -1,5 +1,5 @@
 # Getting Started
-
+ 
 This site contains documentation for Infinity Bot List & its companion API, including documentation about features and tutorials on common use cases.
 
 ## Updates
