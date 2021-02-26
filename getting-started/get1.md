@@ -4,7 +4,7 @@ To fetch user stats from the **InfinityBotList API** you first need to specify t
 
 #### Domain
 
-`api.infinitybotlist.com/user/:userID`  
+`api.infinitybots.xyz/user/:userID`  
 Where is says `:userID` please replace with the User ID of the person your trying to lookup. \(Example: `:12345678910`\)
 
 #### Domain Parameters
