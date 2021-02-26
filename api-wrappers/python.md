@@ -1,6 +1,6 @@
 # PYTHON API WRAPPERS
 #### Python API Wrapper for https://infinitybots.xyz
-> Maintained by `Andromeda#7911`
+Maintained by `Andromeda#7911`
 # POST BOT STATS
 ## await ibl.post_stats(bot_id, auth_token, servers, shards=0)
 ### Example:
