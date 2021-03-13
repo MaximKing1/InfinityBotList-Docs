@@ -2,24 +2,24 @@
 
 To fetch bot stats from the **InfinityBotList API** you first need to specify your Bot ID, you can find this on your Discord Developer Portal or from the edit bot page.
 
-#### Domain
+## Domain
 
 `api.infinitybots.xyz/bot/:id/info`  
 Where is says `:botID` please replace with the Bots ID
 
-#### Domain Parameters
+## Domain Parameters
 
 ":botID" means your Bot ID
 
-#### Headers
+## Headers
 
 "Content-Type": application/json
 
-#### JSON
+## JSON
 
 `res.json`: receive response from our API handler
 
-#### RESPONSE
+## RESPONSE
 
 Success: \[200\] "BOT STATS" \(JSON\)
 
@@ -49,7 +49,7 @@ Fetch Bot Stats
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 BOT STATS" (JSON)
 ```
 {% endapi-method-response-example %}
@@ -59,7 +59,7 @@ BOT STATS" (JSON)
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 Couldn't find bot
 ```
 {% endapi-method-response-example %}

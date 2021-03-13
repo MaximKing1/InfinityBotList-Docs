@@ -2,30 +2,30 @@
 
 To post your bot stats to the **InfinityBotList API** you first need to find out your Client ID this can be located on the [Discord Developer Portal](https://discord.com/developers/applications) in your bot application, now follow the steps below to get started!
 
-#### Domain
+### Domain
 
 `api.infinitybots.xyz/bot/:id`  
 Where is says `:id` please replace with your bot's ID / Client ID. \(Example: `:12345678910`\)
 
-#### Domain Parameters
+### Domain Parameters
 
 ":id" means botID or your clientID
 
-#### Headers
+### Headers
 
 "authorization": Your bot's API token, which can be found on its page  
 "Content-Type": application/json
 
-#### Body Parameters
+### Body Parameters
 
 "servers": Bot servers count  
 "shards": Bot shards count if sharding
 
-#### JSON
+### JSON
 
 `res.json`: receive response from our API handler
 
-#### RESPONSE
+### RESPONSE
 
 Success: \[200\] "MESSAGE"
 
@@ -33,11 +33,11 @@ Not Found: \[404\] "MESSAGE"
 
 Rate Limit: \[429\] "MESSAGE"
 
-Internal Server Error: \[500\] "MESSAGE"  
-  
+Internal Server Error: \[500\] "MESSAGE"
+
 Error: \[400\] "MESSAGE"
 
-### Example:
+## Example:
 
 {% api-method method="post" host="https://api.infinitybots.xyz" path="/bot/:id" %}
 {% api-method-summary %}
@@ -67,7 +67,7 @@ YOUR\_TOKEN
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 SUCCESS: res.json
 ```
 {% endapi-method-response-example %}
@@ -77,7 +77,7 @@ SUCCESS: res.json
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 Not Found!
 ```
 {% endapi-method-response-example %}
@@ -87,7 +87,7 @@ Not Found!
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 RATE LIMITED
 ```
 {% endapi-method-response-example %}

@@ -1,25 +1,25 @@
 # Fetching User Stats
 
-To fetch user stats from the **InfinityBotList API** you first need to specify the User ID, from your bot you could grab the `message.author.id` or the user could specify the ID using args, from there you will add that as a  Domain Parameters. Follow the steps below.
+To fetch user stats from the **InfinityBotList API** you first need to specify the User ID, from your bot you could grab the `message.author.id` or the user could specify the ID using args, from there you will add that as a Domain Parameters. Follow the steps below.
 
-#### Domain
+## Domain
 
 `api.infinitybots.xyz/user/:userID`  
 Where is says `:userID` please replace with the User ID of the person your trying to lookup. \(Example: `:12345678910`\)
 
-#### Domain Parameters
+## Domain Parameters
 
 ":userID" means the user ID
 
-#### Headers
+## Headers
 
 "Content-Type": application/json
 
-#### JSON
+## JSON
 
 `res.json`: receive response from our API handler
 
-#### RESPONSE
+## RESPONSE
 
 Success: \[200\] "USER STATS" \(JSON\)
 
@@ -49,7 +49,7 @@ Get User Stats From The API.
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 res.json
 ```
 {% endapi-method-response-example %}
@@ -59,7 +59,7 @@ res.json
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 Couldn't find user
 ```
 {% endapi-method-response-example %}
