@@ -19,7 +19,7 @@ In your main file add the following code
 ```javascript
 const { client } = require('discord.js');
 const client = new Client();
-const { Client } = require('IBL-api');
+const { Client } = require('ibl-api');
 
 const IBL = new Client(client, 'botAuth');
 
@@ -46,7 +46,7 @@ npm install --save ibl-api
 ### Step 2:
 
 ```javascript
-const { Client } = require('IBL-api');
+const { Client } = require('ibl-api');
 const { client } = require('discord.js');
 const client = new Client();
 
