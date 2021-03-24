@@ -4,7 +4,7 @@ This site contains documentation for Infinity Bot List & its companion API, incl
 
 ## Updates
 
-* The site has been updated to our new domain, [https://infinitybots.xyz/](https://infinitybots.xyz/) Please review all the API docs if they are not working!
+* The site has been updated to our new domain, [https://infinitybotlist.com](https://infinitybotlist.com) Please review all the API docs if they are not working!
 
 ## Need Help?
 
