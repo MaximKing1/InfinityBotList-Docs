@@ -44,12 +44,12 @@ npm i infinity-api
 Now that the wrapper is installed we need to add this to our main code.
 
 ```javascript
-const infinity = require("infinity-api") // We import our api
+const infinity = require("infinity-api"); // We import our api
 const IBL = new infinity("botID", "botAuth", {webPort: 3001, webPath: "/IBLhook", webAuth: "Auth you placed in custom webhooks"}); // We fill requirements
 
 IBL.webhook.on("votes", (vote) => {
     console.log(vote) // Receive vote content
-})
+});
 
 IBL.webhook.on("ready", console.log) // Once the webserver start u will get message
 IBL.webhook.on("destroyed", console.log) // Any errors will be generated from him
@@ -60,7 +60,7 @@ Now everytime we receive a vote it will run the code inside the:
 ```javascript
 IBL.webhook.on("votes", (vote) => {
     // Will Run This Code
-})
+});
 ```
 
 ## Using The Raw Webhook:
@@ -70,7 +70,7 @@ IBL.webhook.on("votes", (vote) => {
 First we need to install the required packages:
 
 ```javascript
-npm i express body-parser
+npm install express body-parser
 ```
 
 ### Step 2:
@@ -84,9 +84,9 @@ Go to your bots page and click the Manage Bot button, then scroll down until you
 From there you can add your Vote URL and Vote secret we would suggest using a Express server you can read more about here also we included an example below:
 
 ```javascript
-  // Imports
-const express = require("express")
-const bodyParser = require("body-parser")
+// Imports
+const express = require("express");
+const bodyParser = require("body-parser");
 
 const app = express(); // Initialize express
 const port = 3001; // Define a port for the webserver to run on.
@@ -100,10 +100,11 @@ app.post("/vote", (req, res) => {
   // Use the data on whatever you want
   console.log(req.body); 
 
- // Respond to ibl api
+  // Respond to ibl api
   res.status(200).send(JSON.stringify({error: false, message: "Received the request!"}));
 })
 
+// Start the webserver using the defined port
 app.listen(port, () => console.log(`Listening on port: ${port}`)) //Start the server
 ```
 
