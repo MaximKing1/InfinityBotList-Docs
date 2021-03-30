@@ -18,6 +18,6 @@
 
 ## Extras
 
-* [Server Rules](extras/untitled.md)
+* [Rules](extras/rules.md)
 * [Contributing](extras/contributing.md)
 

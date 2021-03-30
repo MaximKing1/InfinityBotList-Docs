@@ -1,4 +1,4 @@
-# Server Rules
+# Rules
 
 ## Rules and Requirements
 
