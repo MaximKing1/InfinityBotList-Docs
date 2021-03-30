@@ -8,7 +8,7 @@
 2. Treat the rest like you would like to be treated.
 3. Do not bring unnecessary drama or discussions.
 4. Do not spam or flood the chat, try to avoid 1 word messages.
-5. Any self advertisement is prohibited.
+5. Any self advertisement is prohibited unless you are a Exclusive Promo Member, you can get this role by adding `infinitybotlist.com` to your discord status.
 6. Swearing is not permitted
 7. Leaking private information from a fellow member is strictly prohibited.
 8. Usage of any NSFW link, image or any other material is strictly prohibited. We want a safe environment for kids as well.
