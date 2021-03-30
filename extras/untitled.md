@@ -4,7 +4,7 @@
 
 ## Server Rules
 
-1. This server is mainly `English`. Therefore `English` is the only language that should be spoken
+1. This server is mainly `English`. Therefore `English` is the only language that should be spoken if you need support in another language please use the support channels or open a ticket.
 2. Treat the rest like you would like to be treated.
 3. Do not bring unnecessary drama or discussions.
 4. Do not spam or flood the chat, try to avoid 1 word messages.
