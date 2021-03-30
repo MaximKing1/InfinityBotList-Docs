@@ -2,7 +2,7 @@
 
 ## Rules and Requirements
 
-## Server Rules
+## Server Rules:
 
 1. This server is mainly `English`. Therefore `English` is the only language that should be spoken if you need support in another language please use the support channels or open a ticket.
 2. Treat the rest like you would like to be treated.
@@ -18,7 +18,7 @@
 12. Talking about `DDosing` stuff or do a `DDos` attack on website leads to warn then direct ban
 13. Do Not Minimod \(Pretending to be staff\).
 
-### Bot Rules
+### Bot Rules:
 
 1. Bot commands go into `#testing-1` and `#testing-2`
 2. Bot Logs in `#bot-spam`
@@ -27,7 +27,7 @@
 5. Public Owner / Moderation commands
 6. Responding Command not found messages by doing help `Unknown Command`
 
-### Bot requirements
+### Bot Requirements:
 
 1. 5 Working Commands \(not include help\).
 2. Follow discord best practice.
@@ -35,7 +35,11 @@
 4. Follow the [Discord Terms Of Service](https://discord.com/terms).
 5. Follow our [Terms Of Service](https://infinitybotlist.com/legal).
 
-### Punishments
+### API:
+
+1. Upon posting to our API, it maybe collect data such as your IP Address, User ID & Bot ID to provide rate limiting utilitys and analytics
+
+### Punishments:
 
 1. Warn - Depends on the rule
 2. Mute - Depends on the rule
