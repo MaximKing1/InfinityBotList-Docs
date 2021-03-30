@@ -17,16 +17,16 @@ npm install --save ibl-api
 In your main file add the following code
 
 ```javascript
-const { client } = require('discord.js');
-const client = new Client();
+const discord = require('discord.js');
+const client = new discord.Client();
 const { Client } = require('ibl-api');
 
 const IBL = new Client(client, 'botAuth');
 
 IBL.autoPost({
-    botID: '474745745457098', // Your botID
+    botID: '474745745457', // Your botID
     timerLoop: 300000, // This is in MS, this is default to 5 minutes
-  }, true);
+}, true);
 
 client.login('token');
 ```
@@ -47,8 +47,8 @@ npm install --save ibl-api
 
 ```javascript
 const { Client } = require('ibl-api');
-const { client } = require('discord.js');
-const client = new Client();
+const discord = require('discord.js');
+const client = new discord.Client();
 
 const IBL = new Client(client, 'botAuth', {
   webPort: 3001,
