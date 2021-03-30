@@ -37,7 +37,7 @@
 
 ### API:
 
-1. Upon posting to our API, it maybe collect data such as your IP Address, User ID & Bot ID to provide rate limiting utilitys and analytics
+1. Upon posting to our API, it maybe collect data such as your IP Address, User ID & Bot ID to provide rate limiting utility's and analytics.
 
 ### Punishments:
 
