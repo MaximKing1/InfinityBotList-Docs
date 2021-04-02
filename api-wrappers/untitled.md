@@ -74,5 +74,5 @@ You can POST Server and Shard Count stats once every 5 minutes
 
 | ROUTE | REQUEST | REQUESTS ALLOWED PER 5 MINUTES |
 | :--- | :--- | :--- |
-| /bots/:botid | POST | 3 |
+| `/bots/:botid` | `POST` | `3` |
 
