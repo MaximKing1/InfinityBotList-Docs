@@ -36,7 +36,7 @@ BLWEvent.on('IBL-voted', function async (userID, botID, type, timeStamp) {
 First lets install the wrapper from NPM.
 
 ```javascript
-npm i infinity-api
+npm install --save ibl-api
 ```
 
 ### Step 2:
@@ -44,22 +44,33 @@ npm i infinity-api
 Now that the wrapper is installed we need to add this to our main code.
 
 ```javascript
-const infinity = require("infinity-api"); // We import our api
-const IBL = new infinity("botID", "botAuth", {webPort: 3001, webPath: "/IBLhook", webAuth: "Auth you placed in custom webhooks"}); // We fill requirements
+const { IBL } = require('ibl-api');
+const discord = require('discord.js');
+const client = new discord.Client();
 
-IBL.webhook.on("votes", (vote) => {
-    console.log(vote) // Receive vote content
+const ibl = new IBL(client, 'botAuth');
+ibl.voteWebhook(
+    'web auth', //web auth set on bot page
+    3001, //port
+    '/ibl/webhook' //path to post to, set on bot page
+)
+
+ibl.webhook.on("ready", port => {
+    console.log(`Infinity Bot List webhook is listening on ${port}`)
 });
 
-IBL.webhook.on("ready", console.log) // Once the webserver start u will get message
-IBL.webhook.on("destroyed", console.log) // Any errors will be generated from him
+ibl.webhook.on("vote", async (user, bot, type) => {
+  console.log(`${user} voted for ${bot}`);
+});
+
+client.login('token');
 ```
 
 Now everytime we receive a vote it will run the code inside the:
 
 ```javascript
-IBL.webhook.on("votes", (vote) => {
-    // Will Run This Code
+ibl.webhook.on("vote", async (user, bot, type) => {
+  console.log(`${user} voted for ${bot}`);
 });
 ```
 
