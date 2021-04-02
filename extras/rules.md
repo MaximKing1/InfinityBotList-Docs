@@ -41,10 +41,10 @@
 
 ### Punishments:
 
-1. Warn - Depends on the rule
-2. Mute - Depends on the rule
-3. Kick
-4. Ban
+1. 2 Warnings - 1 Day Mute
+2. 3 Warnings - Server Kick, Bots Removed
+3. 4 Warnings - Server Ban `(1 Week)`
+4. 5 Warnings - Lifetime Ban `(Can Appeal)`
 
 ### **DISCLAIMER:**
 
