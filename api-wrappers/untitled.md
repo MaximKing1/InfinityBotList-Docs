@@ -19,14 +19,12 @@ In your main file add the following code
 ```javascript
 const discord = require('discord.js');
 const client = new discord.Client();
-const { Client } = require('ibl-api');
+const { IBL } = require('ibl-api');
 
-const IBL = new Client(client, 'botAuth');
+const ibl = new IBL(client, 'botAuth');
 
-IBL.autoPost({
-    botID: '474745745457', // Your botID
-    timerLoop: 300000, // This is in MS, this is default to 5 minutes
-}, true);
+ibl.postStats() //Posts stats (retrieved from bot client)
+ibl.autopost(60 * 60 * 1000) //Posts every hour
 
 client.login('token');
 ```
@@ -46,23 +44,23 @@ npm install --save ibl-api
 ### Step 2:
 
 ```javascript
-const { Client } = require('ibl-api');
+const { IBL } = require('ibl-api');
 const discord = require('discord.js');
 const client = new discord.Client();
 
-const IBL = new Client(client, 'botAuth', {
-  webPort: 3001,
-  webPath: '/IBLhook',
-  webAuth: 'Auth you placed in custom webhooks',
-});
-IBL.voteWebhook(true);
+const ibl = new IBL(client, 'botAuth');
+ibl.voteWebhook(
+    'web auth', //web auth set on bot page
+    3001, //port
+    '/ibl/webhook' //path to post to, set on bot page
+)
 
-IBL.on('ready', () => {
-  console.log('Server Ready!');
+ibl.webhook.on("ready", port => {
+    console.log(`Infinity Bot List webhook is listening on ${port}`)
 });
 
-IBL.on('vote', async (userID, botID, type) => {
-  console.log(userID + 'Voted For' + botID);
+ibl.webhook.on("vote", async (user, bot, type) => {
+  console.log(`${user} voted for ${bot}`);
 });
 
 client.login('token');
