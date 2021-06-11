@@ -2,7 +2,7 @@
 
 ## PYTHON API WRAPPERS
 
-**Python API Wrapper for https://infinitybots.xyz**
+**Python API Wrapper for https://infinitybotlist.com**
 
 > Maintained by Rootspring\#6701
 
